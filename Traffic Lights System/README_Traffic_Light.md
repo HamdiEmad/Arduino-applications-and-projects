@@ -47,7 +47,7 @@ void loop()
 - 1x RED LED
 - 1x YELLOW LED
 - 1x GREEN LED
-- 3x Resistors (220Ω – 330Ω)
+- 3x Resistors (100Ω – 330Ω)
 - Breadboard and jumper wires
 
 ### Wiring:
