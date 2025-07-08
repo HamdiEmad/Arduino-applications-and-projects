@@ -87,3 +87,4 @@ void loop()
 - Demonstrates use of arrays for clean code.
 - Models real-world traffic light timing.
 - Great practice for Arduino control logic, timing, and clean code structure.
+ 

@@ -1,6 +1,9 @@
 #define LDR A0
 #define LED 11
 
+int lightLevel;
+int pwmValue;
+
 void setup()
 {
     pinMode(LDR, INPUT_PULLUP);
@@ -10,7 +13,7 @@ void setup()
 
 void loop()
 {
-    int lightLevel = analogRead(LDR);
-    int pwmValue = map(lightLevel, 0, 1023, 0, 255);
+    lightLevel = analogRead(LDR);
+    pwmValue = map(lightLevel, 0, 1023, 0, 255);
     analogWrite(LED, pwmValue);
 }
